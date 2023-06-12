@@ -11,6 +11,7 @@ public class LearnSet {
         mySet.add(7);
         mySet.add(9);
         System.out.println("mySet: " + mySet);
+        System.out.println("------------------------------------");
 //        addAll()
 //        init newSet
         Set<Integer> newSet = new HashSet<>();
@@ -18,23 +19,28 @@ public class LearnSet {
         newSet.add(6);
         System.out.println("mySet: " + mySet);
         System.out.println("newSet: " + mySet);
+        System.out.println("------------------------------------");
 //        add newSet to mySet
         mySet.addAll(newSet);
         System.out.println("mySet after adding newSet: " + mySet);
+        System.out.println("------------------------------------");
 //        remove()
         System.out.println("mySet: " + mySet);
         mySet.remove(5);
         System.out.println("mySet after remove element has value 5: " + mySet);
+        System.out.println("------------------------------------");
 //        contains()
         System.out.println("mySet: " + mySet);
         System.out.println("mySet contains 3 ? " + mySet.contains(3));
         System.out.println("mySet contains 5 ? " + mySet.contains(5));
+        System.out.println("------------------------------------");
 //        size, clear and isEmpty method
         System.out.println("mySet: " + mySet);
         System.out.println("Size of mySet: " + mySet.size());
         mySet.clear();
         System.out.println("Set after clearing: " + mySet);
         System.out.println("isEmpty: " + mySet.isEmpty());
+        System.out.println("------------------------------------");
 //        removeAll()
         Set<Integer> set1 = new HashSet<>() {
             {
@@ -54,6 +60,7 @@ public class LearnSet {
         System.out.println("set2: " + set2);
         set1.removeAll(set2);
         System.out.println("set1: " + set1);
+        System.out.println("------------------------------------");
 //        retainAll
         set1 = new HashSet<>() {
             {

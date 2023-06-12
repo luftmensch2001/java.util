@@ -9,24 +9,29 @@ public class LearnMap {
         myMap.put(2, "Peter");
         myMap.put(3, "Alex");
         System.out.println("myMap: " + myMap);
+        System.out.println("------------------------------------");
 //        putAll method
         Map<Integer, String> newMap = new HashMap<>();
         newMap.put(4, "David");
         newMap.put(5, "Bon");
         myMap.putAll(newMap);
         System.out.println("myMap after putAll: " + myMap);
+        System.out.println("------------------------------------");
 //        Get value
         System.out.println("myMap: " + myMap);
         System.out.println("Value of entry has key = 1: " + myMap.get(1));
         System.out.println("Value of entry has key = 2: " + myMap.get(2));
+        System.out.println("------------------------------------");
 //        Update value using put()
         System.out.println("myMap: " + myMap);
         myMap.put(5, "Bean");
         System.out.println("Updated: " + myMap);
+        System.out.println("------------------------------------");
 //        remove method
         System.out.println("myMap: " + myMap);
         myMap.remove(5);
         System.out.println("Remove element has key = 5: " + myMap);
+        System.out.println("------------------------------------");
 //        size, clear and isEmpty method
         System.out.println("myMap: " + myMap);
         System.out.println("Size of hashmap: " + myMap.size());
