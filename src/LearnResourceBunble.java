@@ -7,6 +7,6 @@ public class LearnResourceBunble {
 //        Get message from VN (default)
         Locale.setDefault(new Locale("vi", "VN"));
         bundle = ResourceBundle.getBundle("Message");
-        System.out.println("Message in US: " + bundle.getString("message"));
+        System.out.println("Message in VN: " + bundle.getString("message"));
     }
 }
